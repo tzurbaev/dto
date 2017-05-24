@@ -44,11 +44,11 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-version]: https://poser.pugx.org/tzurbaev/dto/version?format=flat
 [ico-license]: https://poser.pugx.org/tzurbaev/dto/license?format=flat
 [ico-travis]: https://api.travis-ci.org/tzurbaev/dto.svg?branch=master
-[ico-styleci]: https://styleci.io/repos/XXX/shield?branch=master&style=flat
+[ico-styleci]: https://styleci.io/repos/92240531/shield?branch=master&style=flat
 [ico-scrutinizer]: https://scrutinizer-ci.com/g/tzurbaev/dto/badges/quality-score.png?b=master
 
 [link-packagist]: https://packagist.org/packages/tzurbaev/dto
 [link-travis]: https://travis-ci.org/tzurbaev/dto
-[link-styleci]: https://styleci.io/repos/XXX
+[link-styleci]: https://styleci.io/repos/92240531
 [link-scrutinizer]: https://scrutinizer-ci.com/g/tzurbaev/dto/
 [link-author]: https://github.com/tzurbaev
