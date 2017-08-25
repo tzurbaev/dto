@@ -90,6 +90,24 @@ abstract class DataTransferObject
     }
 
     /**
+     * Creates new DTO instance from given array.
+     *
+     * @param array $data
+     *
+     * @return static
+     */
+    public static function fromArray(array $data)
+    {
+        $instance = new static;
+
+        foreach ($data as $key => $value) {
+            $instance->{$key} = $value;
+        }
+
+        return $instance;
+    }
+
+    /**
      * @param string $method
      *
      * @return mixed

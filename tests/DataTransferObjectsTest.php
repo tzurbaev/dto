@@ -44,4 +44,18 @@ class DataTransferObjectsTest extends TestCase
         $this->expectException(DtoMethodNotFoundException::class);
         $dto->helloWorld();
     }
+
+    public function testCreateFromArray()
+    {
+        $data = [
+            'first' => 'Hello',
+            'second' => 123,
+        ];
+
+        $dto = ExampleData::fromArray($data);
+
+        $this->assertInstanceOf(ExampleData::class, $dto);
+        $this->assertSame($data['first'], $dto->first);
+        $this->assertSame($data['second'], $dto->second);
+    }
 }
